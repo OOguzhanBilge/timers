@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        kalanZaman = 15
+        kalanZaman = 16
         
         lblCountdown.text = "Contdown: \(kalanZaman)"
         
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         if kalanZaman == 0 {
             lblCountdown.text = "Süre Bitti"
             timer.invalidate()
-            kalanZaman = 15
+            kalanZaman = 16
         }
     }
     
